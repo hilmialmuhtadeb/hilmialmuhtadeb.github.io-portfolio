@@ -1,0 +1,66 @@
+/* navbar */
+.navbar {
+  background-color: #000000;
+  font-weight: 600;
+  color: white;
+}
+
+.navbar-brand {
+  line-height: 50px;
+}
+
+.navbar a {
+  color: #ffffff;
+}
+
+/* jumbotron */
+.jumbotron{
+  padding-top: 7rem;
+  background-color: #bbbbbb;
+}
+
+.svg-1 {
+  margin-top: -17px;
+}
+
+/* project */
+.project {
+  margin-top: -40px;
+  background-color: #bbbbbb;
+}
+
+.card {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.svg-2 {
+  margin-bottom: 10px;
+}
+
+/* kontak */
+.contact {
+  margin-top: -40px;
+}
+
+/* footer */
+footer {
+  background-color: black;
+  color: white;
+  line-height: 50px;
+}
+
+@media (max-width: 570px){
+  .jumbotron h1 {
+    font-size: 16px;
+  }
+  .jumbotron p {
+    font-size: smaller;
+  }
+  .svg-2 {
+    margin-bottom: 30px;
+  }
+  .contact {
+    padding-top: 50px;
+  }
+}
